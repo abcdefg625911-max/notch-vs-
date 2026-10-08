@@ -1,0 +1,25 @@
+# Build output and local workspace
+.gradle/
+build/
+out/
+run/
+logs/
+*.log
+*.class
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Source package and working assets not intended for this download-only repository
+/source/
+/models/
+/preview/
+/mods/
+/validation.txt
+*.fbx
+*.glb
+
+# Distribute built jars as GitHub Release assets instead of repo commits
+*.jar
